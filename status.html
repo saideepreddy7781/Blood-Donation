@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blood Groups</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="lec%2010%20assignment.css">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="gallery.css">
+    <script src="ID%20Generator.js"></script>
+
+</head>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-card-2">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="Let's%20Donate.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Let's Donate</a>
+        <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">STATUS</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EMERGENCY</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="gallery.html" class="w3-bar-item w3-button">GALLERY</a>
+                <a href="#" class="w3-bar-item w3-button">VOLUNTEER</a>
+                <a href="#" class="w3-bar-item w3-button">MISSION</a>
+            </div>
+        </div>
+        <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    </div>
+</div><br><br>
+<buton class="btn btn-primary"><a href="form%20registration.html"><span class="glyphicon glyphicon-user"></span>First time? Register!</a></buton>
+<h1 class="h1">Status</h1><br>
+
+<div class="w3-content" style="max-width:1532px;">
+
+    <div class="w3-container w3-margin-top" id="rooms">
+
+        <p>Let's know about the status of blood banks near you!</p>
+    </div>
+
+    <div class="w3-row-padding">
+        <div class="w3-col m3">
+            <label><i class="fa fa-calendar-o"></i> Date</label>
+            <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY">
+        </div>
+        <div class="w3-col m3">
+            <label><i class="fa fa-calendar-o"></i>Full Name</label>
+            <input class="w3-input w3-border" type="text" placeholder="Name">
+        </div>
+        <div class="w3-col m2">
+            <label><i class="fa fa-male"></i> Pincode</label>
+            <input class="w3-input w3-border" type="text" placeholder="Pincode">
+        </div>
+        <div class="w3-col m2">
+            <label><i class="fa fa-child"></i> Form ID</label>
+            <input class="w3-input w3-border" type="text" placeholder="Generated ID">
+        </div>
+        <div class="w3-col m2">
+            <label><i class="fa fa-search"></i> Search</label>
+            <button class="w3-button w3-block w3-black">Search</button>
+        </div>
+    </div>
+</div>
+<br><br><br>
+<div class="container ">
+    <div class="row">
+    <div class="col-md-4">
+    <div class="card " style="width: 20rem;">
+        <img class="card-img-top" src="http://via.placeholder.com/350x150/F71F1F?text=Positive" alt="Card image cap">
+        <div class="card-block">
+            <h4 class="card-title"><strong>Blood Group : B+</strong></h4>
+            <p class="card-text">Last Updated yesterday.</p>
+            <button id="add-to-cart "class="btn btn-primary">Request</button>
+
+        </div>
+    </div>
+</div>
+    <div class="col-md-4">
+        <div class="card " style="width: 20rem;">
+            <img class="card-img-top" src="http://via.placeholder.com/350x150/FCA5A5?text=Negative" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title"><strong>Blood Group : O-</strong></h4>
+                <p class="card-text">:Last updated 3 days ago.</p>
+                <button id="add-to-cart "class="btn btn-primary">Request</button>
+
+            </div>
+        </div>
+    </div>
+        <div class="col-md-4">
+            <div class="card " style="width: 20rem;">
+                <img class="card-img-top" src="http://via.placeholder.com/350x150/870505?text=Positive" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title"><strong>Blood Group : AB+</strong></h4>
+                    <p class="card-text">Last updated 18 hours ago.</p>
+                    <button id="add-to-cart "class="btn btn-primary">Request</button>
+                </div>
+            </div>
+        </div>
+
+</div>
+</div><br><br><br><br>
+<div class="container ">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card " style="width: 20rem;">
+                <img class="card-img-top" src="http://via.placeholder.com/350x150/E10909?text=Positive" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title"><strong>Blood Group : A+</strong></h4>
+                    <p class="card-text">Last updated 2 days ago</p>
+                    <button id="add-to-cart "class="btn btn-primary">Request</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card " style="width: 20rem;">
+                <img class="card-img-top" src="http://via.placeholder.com/350x150/F96262?text=Negative" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title"><strong>Blood Group : AB-</strong></h4>
+                    <p class="card-text">Last Updated 15 hours ago</p>
+                    <button id="add-to-cart "class="btn btn-primary">Request</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card " style="width: 20rem;">
+                <img class="card-img-top" src="http://via.placeholder.com/350x150/F83535?text=Negative" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title"><strong>Blood Group : O+</strong></h4>
+                    <p class="card-text">Last updated 4 days ago</p>
+                    <button id="add-to-cart "class="btn btn-primary">Request</button>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div> <br><br>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center  w3-black w3-xlarge">
+    <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> <br>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">BloodDaan</a></p>
+</footer>
+
+</body>
+</html>

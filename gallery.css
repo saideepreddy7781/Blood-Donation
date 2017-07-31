@@ -1,0 +1,18 @@
+.h1
+{
+
+    color:darkred;
+    font-size : 70px;
+    font-family: "Arial Rounded MT Bold";
+    border-bottom-left-radius: 50px;
+    text-align: center;
+}
+.button
+{
+    color:darkred;
+    font-size:30px;
+    font-family: "Berlin Sans FB Demi";
+    border-bottom: 10px;
+    border-color: yellow;
+
+}
