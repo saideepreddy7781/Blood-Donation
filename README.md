@@ -9,4 +9,6 @@ This status will be shown to the hospitals in village areas and interiors!
 Requests will be send accordingly to the website when the blood is required.
 
 Its just the front-end part now!
-Working on the backend part and would store the data in the database!
+Working on the backend part and would store the data in the database.
+
+# This will help the hospitals in village areas and it will reduce the availablity of blood when required.
